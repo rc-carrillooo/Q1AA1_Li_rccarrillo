@@ -1,21 +1,133 @@
+ @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
 }
 
 div{
-    padding: 5px;
-    margin: 5px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .menu{
-    background-color: rgb(255, 252, 238);
+    background-color: rgb(172, 185, 182);
     width: 100%;
+    height: 10vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.buttons{
+    float: right;
+    padding-top: 3.5vh;
+    padding-bottom: 3.5vh;
+    padding-right: 5vh;
+}
+
+.buttons a{
+    color: rgb(255, 0, 149);
 }
 
 .logo{
-    width:10vw;
-    height:10vw;
-    margin-left: 2px;
     float: left;
+    right: 20px;
+    margin: 1vh;
+    padding: 1vh;
 }
+
+.logo img{
+    width: 6vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.banner{
+    background-image: url(images/hanni.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bannertext{
+    font-size: 2em;
+    text-align: left;
+    margin: 10vh;
+    position: absolute;
+    font-family: 'Young Serif', serif;
+    color:rgb(252, 210, 222);
+    
+}
+
+.bannertext span{
+    color: rgb(255, 255, 255);
+}
+
+.bannertext p{
+    color: rgb(202, 235, 225);
+}
+
+.bannertext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: .5em;
+    margin-top: .5em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(154, 190, 199);
+    border-radius: 5%;
+}
+
+.bannertext a:hover{
+    color:rgb(255, 207, 207);
+    padding: .5em;
+    transition: .5s;
+    font-size: larger;
+}
+
+.footer{
+    background-color: bisque;
+    width: 100%;
+    height: 10vh;
+    margin: 0px;
+    padding: 0px;
+}
+.footer p{
+    font-family: 'Young Serif', serif;
+    color:black;
+}
+.footer img{
+    width: 20px;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.gallery{
+    background-image: url(images/roses.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 90vh;
+}
+
+.photos{
+    padding: 10vh; 
+    text-align: center;
+}
+
+.photos img{
+    margin: 5px;
+    padding: 5px;
+}
+
+.gal{
+    font-family: 'Young Serif', serif;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+}
+
